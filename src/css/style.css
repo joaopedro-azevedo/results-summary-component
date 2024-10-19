@@ -7,6 +7,13 @@
 
 body{
     height: 100vh;
+    background-color: aqua;
+}
+
+p{
+    color: var(--lightLavender);
+    font-size: 1.6rem;
+    font-weight: 500;
 }
 
 .container{
@@ -27,39 +34,104 @@ body{
     align-items: center;
     padding: 30px;
     color: var(--white);
+    transform: translateX(25px);
 }
 
 .container .results .title-result{
     font-weight: 800;
     font-size: 1.9rem;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .container .results .counter{
     width: 150px;
     height: 150px;
     border-radius: 100px;
-    background-color: var(--lightRoyalBlueBG);
-    background-image: linear-gradient(to top, var(--lightSlateBlueBG), var(--lightRoyalBlueBG) );
+    background-color: var(--violetBlueCircle);
+    background-image: linear-gradient(to top, var(--violetBlueCircle), var(--persianBlueCircle));
+    box-shadow: 0px 5px 5px var(--persianBlueCircle);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     box-shadow: 50% ;
+    margin-bottom: 20px;
+}
+
+.container .results .counter .note{
+    font-weight: 800;
+    font-size: 5.5rem;
+}
+
+.container .results .quality{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.container .results .description-result{
+    font-weight: 500;
+    text-align: center;
 }
 
 .container .summary{
     background-color: var(--white);
     width: 295px;
     height: 410px;
-    border-radius: 30px;
+    border-radius: 0px 30px 30px 0;
     display: flex;
     flex-direction: column;
     padding: 30px;
+    padding-left: 50px;
 }
 
+.container .summary .title-summary{
+    margin-bottom: 20px;
+    color: var(--darkGrayBlue);
+}
 
+.container .summary .topic-summary{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 13px;
+    border-radius: 10px;
+}
 
+.container .summary .reactionBG{
+    background-color: hsl(0, 100%, 67%, 10%);
+}
 
+.container .summary .reaction{
+    color: var(--lightRed);
+}
+
+.container .summary .memoryBG{
+    background-color: hsl(39, 100%, 56%, 10%);
+}
+
+.container .summary .memory{
+    color: var(--orangeyYellow);
+}
+
+.container .summary .verbalBG{
+    background-color: hsl(166, 100%, 37%, 10%);
+}
+
+.container .summary .verbal{
+    color: var(--greenTeal);
+}
+
+.container .summary .visualBG{
+    background-color: hsl(234, 85%, 45%, 10%);
+}
+
+.container .summary .visual{
+    color: var(--cobaltBlue);
+}
+
+.container .summary .topic-summary .note-summary{
+    margin-left: 40px;
+}
 
 
 
