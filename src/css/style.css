@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1.8rem;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .results{
+    background-color: var(--lightRoyalBlueBG);
+    background-image: linear-gradient(to top, var(--lightRoyalBlueBG), var(--lightSlateBlueBG) );
+    width: 295px;
+    height: 410px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    color: var(--white);
+}
+
+.container .results .title-result{
+    font-weight: 800;
+    font-size: 1.9rem;
+    margin-bottom: 50px;
+}
+
+.container .results .counter{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: var(--lightRoyalBlueBG);
+    background-image: linear-gradient(to top, var(--lightSlateBlueBG), var(--lightRoyalBlueBG) );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 50% ;
+}
+
+.container .summary{
+    background-color: var(--white);
+    width: 295px;
+    height: 410px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 1.1rem; 
+    text-align: center; 
+    background-color: var(--stone100);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
