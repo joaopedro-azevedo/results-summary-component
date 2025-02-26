@@ -1,0 +1,116 @@
+/* @media (max-width: 375px) {
+
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+        width: 100vh;
+        height: 100vh;
+    }
+    .results{
+        width: 375px;
+        margin: 0;
+        border-radius: 0px 0px 30px 30px;
+    }
+} */
+
+
+/* Estilos para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Altera o layout para coluna */
+        align-items: center; /* Centraliza os itens */
+        transform: none; /* Remove o transform */
+        box-shadow: none; /* Remove a sombra */
+        height: auto; /* Ajusta a altura automaticamente */
+        padding: 20px; /* Adiciona padding */
+    }
+
+    .container .results {
+        width: 100%; /* Ocupa toda a largura */
+        height: auto; /* Ajusta a altura automaticamente */
+        border-radius: 0 0 30px 30px; /* Ajusta o border-radius */
+        transform: none; /* Remove o transform */
+        padding: 20px; /* Ajusta o padding */
+    }
+
+    .container .summary {
+        width: 100%; /* Ocupa toda a largura */
+        height: auto; /* Ajusta a altura automaticamente */
+        border-radius: 0; /* Remove o border-radius */
+        padding: 20px; /* Ajusta o padding */
+    }
+
+    .container .results .counter {
+        width: 120px; /* Reduz o tamanho do círculo */
+        height: 120px; /* Reduz o tamanho do círculo */
+    }
+
+    .container .results .note {
+        font-size: 4rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .results .quality {
+        font-size: 2rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .results .description-result {
+        font-size: 1.4rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .summary .title-summary {
+        font-size: 1.6rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .summary .topic-summary {
+        padding: 10px; /* Reduz o padding */
+    }
+
+    .container .summary .note-summary {
+        font-size: 1.4rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .continue-button {
+        font-size: 1.4rem; /* Reduz o tamanho da fonte */
+        padding: 8px; /* Reduz o padding */
+    }
+}
+
+/* Estilos para telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+    .container .results .counter {
+        width: 100px; /* Reduz ainda mais o tamanho do círculo */
+        height: 100px; /* Reduz ainda mais o tamanho do círculo */
+    }
+
+    .container .results .note {
+        font-size: 3rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .results .quality {
+        font-size: 1.8rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .results .description-result {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .summary .title-summary {
+        font-size: 1.4rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .summary .topic-summary {
+        padding: 8px; /* Reduz o padding */
+    }
+
+    .container .summary .note-summary {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    .container .continue-button {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+        padding: 6px; /* Reduz o padding */
+    }
+}
